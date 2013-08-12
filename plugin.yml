@@ -1,0 +1,29 @@
+name: AdminToolz
+main: dev.bukkit.Nols1000.AdminToolz.AdminToolz
+version: 0.3.1beta
+description: Some tools to better include your user.
+author: Nols1000
+
+commands:
+  admin:
+    description: Send the admins some msg.
+    usage: /<command> [text]
+  re:
+    description: Re some msg.
+    usage: /<command> [name] [text]
+  votekick:
+    description: Initalize a votekick against [player] with cause [cause].
+    usage: |
+           /<command> [player]
+           /<command> [player] [cause]
+  voteban:
+    description: Initalize a voteban against [player] with cause [cause].
+    usage: |
+           /<command> [player]
+           /<command> [player] [cause]
+  vote:
+    description: Vote for an Option.
+    usage: |
+           /<command> 1 - vote yes
+           /<command> 2 - vote no
+           /<command> 3 - cancel (only if you creator)
